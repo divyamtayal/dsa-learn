@@ -1,22 +1,13 @@
-# Striver A2Z DSA Sheet
+# A2Z DSA Sheet
 
-Minimal repository for Striver's A2Z DSA Sheet with **problem solutions, concepts, and patterns**.
-
-## Structure
-
-```
-problems/          # Topic-wise problem folders
-cheatsheet/        # Quick reference and patterns
-templates/         # Problem template
-```
+Minimal repository for A2Z DSA Sheet with **problem solutions, concepts, and patterns**.
 
 ## Usage
 
 1. Navigate to a topic folder.
-2. Read the concepts/patterns cheat sheet.
+2. Read the concepts/problems cheat sheet.
 3. Solve problems using provided C++ solution templates.
 
-## Contribution
+---
 
-- Follow `PROBLEM_TEMPLATE.md` for new problem additions.
-- Submit pull requests for updates.
+_Last Updated: October 2025_

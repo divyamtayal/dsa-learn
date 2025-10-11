@@ -1,6 +1,6 @@
 # Arrays
 
-This Markdown file contains a **master reference table** for all Array problems in Striver's A2Z sheet, with difficulty, required concepts, patterns, and key points. Use this as a guide before creating individual problem files.
+This Markdown file contains a **master reference table** for all Array problems in A2Z sheet, with difficulty, required concepts, patterns, and key points. Use this as a guide before creating individual problem files.
 
 | S.No | Problem Name                                               | Difficulty | Concepts Required                  | Pattern / Approach                   | Notes / Key Points                          |
 | ---- | ---------------------------------------------------------- | ---------- | ---------------------------------- | ------------------------------------ | ------------------------------------------- |

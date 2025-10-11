@@ -1,6 +1,6 @@
 # Arrays — Concepts and Patterns Cheat Sheet
 
-This Markdown file summarizes **all core concepts, patterns, and tips** required to solve Array problems in Striver's A2Z sheet. It is designed for **quick revision and interview preparation**.
+This Markdown file summarizes **all core concepts, patterns, and tips** required to solve Array problems in A2Z sheet. It is designed for **quick revision and interview preparation**.
 
 ---
 
