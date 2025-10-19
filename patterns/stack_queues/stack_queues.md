@@ -5,19 +5,22 @@ This roadmap is designed to take you from **first principles → advanced patter
 
 ---
 
-## 📚 Contents
+## 📚 Table of Contents
 
-1. [Introduction](#introduction)
-2. [Core Implementations](#core-implementations)
-3. [Expression Evaluation](#expression-evaluation)
-4. [Monotonic Stack Patterns](#monotonic-stack-patterns)
-5. [Range and Histogram Problems](#range-and-histogram-problems)
-6. [Sliding Window and Deque Problems](#sliding-window-and-deque-problems)
-7. [Stack Simulation Problems](#stack-simulation-problems)
-8. [Logic and Design Applications](#logic-and-design-applications)
-9. [Concepts to Remember](#concepts-to-remember)
-10. [Study Plan (7 Weeks)](#study-plan-7-weeks)
-11. [Progress Tracker](#progress-tracker)
+1. [Introduction](#-introduction)
+2. [Core Implementations](#-core-implementations)
+3. [Expression Evaluation](#-expression-evaluation)
+4. [Monotonic Stack Patterns](#-monotonic-stack-patterns)
+5. [Range and Histogram Problems](#-range-and-histogram-problems)
+6. [Sliding Window and Deque Problems](#-sliding-window-and-deque-problems)
+7. [Stack Simulation Problems](#-stack-simulation-problems)
+8. [Logic and Design Applications](#-logic-and-design-applications)
+9. [Concepts to Remember](#-concepts-to-remember)
+10. [Study Plan (7 Weeks)](#-study-plan-7-weeks)
+11. [Progress Tracker](#-progress-tracker)
+12. [How to Use This Repository](#-how-to-use-this-repository)
+13. [Final Goal](#-final-goal)
+14. [Author Note](#-author-note)
 
 ---
 
@@ -232,7 +235,7 @@ By the end of this roadmap, you will:
 
 ---
 
-### 💬 Author Note
+## 💬 Author Note
 
 > This repo is structured to be **self-contained** — no external references needed.  
 > Just follow the order, implement each problem, and mark it ✅.
