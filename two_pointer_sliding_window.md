@@ -15,9 +15,8 @@ This roadmap will take you from the basics to advanced patterns used in **interv
 5. [Common Patterns](#-common-patterns)
 6. [Study Plan (4 Weeks)](#-study-plan-4-weeks)
 7. [Progress Tracker](#-progress-tracker)
-8. [How to Use This Repository](#-how-to-use-this-repository)
-9. [Final Goal](#-final-goal)
-10. [Author Note](#-author-note)
+8. [Final Goal](#-final-goal)
+9. [Author Note](#-author-note)
 
 ---
 
@@ -126,6 +125,21 @@ They are widely used in:
 
 ---
 
-## 🧭 How to Use This Repository
+## 🎯 Final Goal
 
-1. Folder layout:
+By the end, you will:
+
+- Convert any brute-force substring/subarray problem into an O(n) solution
+- Instantly recognize when to use **two pointers**, **at most K**, or **frequency maps**
+- Tackle advanced string/array window problems confidently in interviews
+
+---
+
+## 💬 Author Note
+
+> This guide is **self-contained** — just follow the roadmap, practice, and mark progress.  
+> Two pointers and sliding windows appear everywhere — arrays, strings, matrices, and even linked lists.  
+> Build the intuition once, and it’ll serve you across topics.
+
+Happy Coding 💻  
+**#DSA #TwoPointers #SlidingWindow #InterviewPrep**
