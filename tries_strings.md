@@ -1,189 +1,175 @@
-# 🌳 Trees, Tries & String Mastery
+# 🔤 Tries & Strings Mastery
 
-Your complete roadmap to mastering **Trees**, **Tries**, and **String Algorithms** —  
-from basic concepts like tree structure and recursion to advanced string processing with **KMP**, **Z-function**, and **Trie-based prefix/XOR** problems.
+Your complete roadmap to mastering **Tries** and **String Algorithms** —  
+covering everything from **prefix-based structures (Tries, XOR problems)** to **advanced string matching and manipulation** techniques like **KMP**, **Z-function**, and **Rabin-Karp**.
 
 ---
 
 ## 📚 Table of Contents
 
 1. [Introduction](#-introduction)
-2. [Tree Fundamentals](#-tree-fundamentals)
-3. [Trie (Prefix Tree) Problems](#-trie-prefix-tree-problems)
-4. [String Fundamentals & Hashing](#-string-fundamentals--hashing)
-5. [String Matching Algorithms](#-string-matching-algorithms)
-6. [String Manipulation & Parsing](#-string-manipulation--parsing)
-7. [Concepts to Remember](#-concepts-to-remember)
-8. [Study Plan (5 Weeks)](#-study-plan-5-weeks)
-9. [Progress Tracker](#-progress-tracker)
-10. [Final Goal](#-final-goal)
-11. [Author Note](#-author-note)
+2. [Trie (Prefix Tree) Problems](#-trie-prefix-tree-problems)
+3. [String Fundamentals & Hashing](#-string-fundamentals--hashing)
+4. [String Matching Algorithms](#-string-matching-algorithms)
+5. [String Manipulation & Parsing](#-string-manipulation--parsing)
+6. [Concepts to Remember](#-concepts-to-remember)
+7. [Study Plan (5 Weeks)](#-study-plan-5-weeks)
+8. [Progress Tracker](#-progress-tracker)
+9. [Final Goal](#-final-goal)
+10. [Author Note](#-author-note)
 
 ---
 
 ## 🧠 Introduction
 
-This section unifies three critical ideas:
+This section focuses on two of the most powerful topics in modern problem-solving:
 
-- **Trees and Tries** — hierarchical data structures for searching and prefix operations.
-- **String Algorithms** — efficient text searching, hashing, and pattern recognition.
-- **Parsing and Expression Problems** — applying stack, recursion, and math logic on strings.
+- **Tries (Prefix Trees)** — used for searching, prefix-matching, and XOR problems.
+- **String Algorithms** — pattern matching, hashing, palindrome analysis, and parsing.
 
-Together, these concepts help you solve problems in **search engines, compilers, text editors, and autocompletion systems.**
-
----
-
-## 🌴 Tree Fundamentals
-
-| #   | Problem                   | Concept                                       | Status |
-| --- | ------------------------- | --------------------------------------------- | ------ |
-| 1   | **Introduction to Trees** | Understanding types: Binary, BST, N-ary, Trie | ☐      |
-
-🧩 _Goal:_ Understand tree structure, recursion, and node-based traversal before moving to Tries.
+Mastering these builds the foundation for problems in **autocomplete systems**, **text editors**, **search engines**, and **pattern recognition**.
 
 ---
 
 ## 🌲 Trie (Prefix Tree) Problems
 
-| #   | Problem                                 | Concept                                   | Status |
-| --- | --------------------------------------- | ----------------------------------------- | ------ |
-| 1   | **Implement Trie (Prefix Tree)**        | Insert, Search, StartsWith                | ☐      |
-| 2   | **Implement Trie – II**                 | Insert multiple strings, frequency, erase | ☐      |
-| 3   | **Longest String with All Prefixes**    | Build Trie and check prefix validity      | ☐      |
-| 4   | **Number of Distinct Substrings**       | Trie-based substring counting             | ☐      |
-| 5   | **Bit Prerequisites for Trie Problems** | Bit manipulation needed for XOR tries     | ☐      |
-| 6   | **Maximum XOR with Element from Array** | Trie with bitwise paths                   | ☐      |
-| 7   | **Maximum XOR of Two Numbers in Array** | Binary Trie for pairwise max XOR          | ☐      |
-| 8   | **Word Search II**                      | Backtracking + Trie hybrid                | ☐      |
+| #   | Problem                                       | Concept                                          | Status |
+| --- | --------------------------------------------- | ------------------------------------------------ | ------ |
+| 1   | **Implement Trie - II (Prefix Tree)**         | Insert, search, erase, prefix counting           | ☐      |
+| 2   | **Longest String with All Prefixes**          | Maintain prefix chain validity                   | ☐      |
+| 3   | **Number of Distinct Substrings in a String** | Use Trie to store unique substrings              | ☐      |
+| 4   | **Bit Prerequisites for Trie Problems**       | Learn bit manipulation for XOR-Trie              | ☐      |
+| 5   | **Maximum XOR With an Element From Array**    | Query bitwise Trie efficiently                   | ☐      |
+| 6   | **Maximum XOR of Two Numbers in an Array**    | Binary Trie pairwise XOR optimization            | ☐      |
+| 7   | **Word Search II**                            | Backtracking + Trie hybrid for multi-word search | ☐      |
 
-🧠 _Pattern:_ Tries convert prefix and XOR problems into efficient **O(L)** lookups and enable **fast dictionary searching.**
+🧠 _Pattern:_ Tries help transform string/prefix or XOR problems into **logarithmic-time lookups**, enabling fast pattern and number queries.
 
 ---
 
 ## ✳️ String Fundamentals & Hashing
 
-| #   | Problem                                 | Concept                                | Status |
-| --- | --------------------------------------- | -------------------------------------- | ------ |
-| 1   | **Minimum Number of Bracket Reversals** | Stack-based balance correction         | ☐      |
-| 2   | **Count and Say**                       | Recursive string generation            | ☐      |
-| 3   | **Hashing in Strings (Theory)**         | Rolling hash, polynomial hash concepts | ☐      |
-| 4   | **Rabin-Karp Algorithm**                | Substring search using rolling hash    | ☐      |
+| #   | Problem                                 | Concept                                        | Status |
+| --- | --------------------------------------- | ---------------------------------------------- | ------ |
+| 1   | **Minimum Number of Bracket Reversals** | Stack-based balancing logic                    | ☐      |
+| 2   | **Count and Say**                       | Recursively build the next term of sequence    | ☐      |
+| 3   | **Hashing in Strings (Theory)**         | Rolling hash and collision handling            | ☐      |
+| 4   | **Rabin-Karp Algorithm**                | Substring search using polynomial rolling hash | ☐      |
 
-🧩 _Goal:_ Build intuition for substring comparison, rolling hash design, and modular arithmetic in string hashing.
+🧩 _Goal:_ Learn hashing and counting-based logic before advancing to string matching.
 
 ---
 
 ## 🔍 String Matching Algorithms
 
-| #   | Problem                            | Concept                                     | Status |
-| --- | ---------------------------------- | ------------------------------------------- | ------ |
-| 1   | **Z-Function**                     | Prefix-suffix matching precomputation       | ☐      |
-| 2   | **KMP Algorithm / LPS Array**      | Prefix pattern matching (LPS preprocessing) | ☐      |
-| 3   | **Shortest Palindrome**            | KMP-based reverse prefix solution           | ☐      |
-| 4   | **Longest Happy Prefix**           | KMP prefix border                           | ☐      |
-| 5   | **Count Palindromic Subsequences** | DP + string recurrence                      | ☐      |
+| #   | Problem                            | Concept                                       | Status |
+| --- | ---------------------------------- | --------------------------------------------- | ------ |
+| 1   | **Z-Function**                     | Compute longest prefix-suffix matches in O(n) | ☐      |
+| 2   | **KMP Algorithm / LPS (pi) Array** | Prefix function for efficient matching        | ☐      |
+| 3   | **Shortest Palindrome**            | Build palindrome using reversed prefix + KMP  | ☐      |
+| 4   | **Longest Happy Prefix**           | Longest prefix also acting as suffix          | ☐      |
+| 5   | **Count Palindromic Subsequences** | DP + string recurrence relationships          | ☐      |
 
-🧠 _Pattern:_ Use precomputed **prefix-suffix arrays (Z/KMP)** to search or analyze repeating string patterns in linear time.
+🧠 _Pattern:_ Both **Z-function** and **KMP** revolve around precomputing overlap information — essential for matching, prefix checking, and palindrome analysis.
 
 ---
 
 ## ✂️ String Manipulation & Parsing
 
-| #   | Problem                                        | Concept                                | Status |
-| --- | ---------------------------------------------- | -------------------------------------- | ------ |
-| 1   | **Check if Two Strings are Anagrams**          | Frequency counting (hashmap / array)   | ☐      |
-| 2   | **Reverse Words / Palindrome Check**           | Tokenize & compare reversed string     | ☐      |
-| 3   | **Largest Odd Number in a String**             | Scan from end for last odd digit       | ☐      |
-| 4   | **Longest Common Prefix**                      | Compare character by character         | ☐      |
-| 5   | **Isomorphic Strings**                         | Maintain mapping pattern between chars | ☐      |
-| 6   | **Check if One String is Rotation of Another** | `s1 + s1` contains `s2`                | ☐      |
-| 7   | **Remove Outermost Parentheses**               | Stack count logic                      | ☐      |
-| 8   | **Sort Characters by Frequency**               | Frequency sort via heap/hashmap        | ☐      |
-| 9   | **Maximum Nesting Depth of Parentheses**       | Count open/close depth                 | ☐      |
-| 10  | **Roman Number ↔ Integer Conversion**          | Parsing from both directions           | ☐      |
-| 11  | **Implement Atoi (String to Integer)**         | Manual parsing and overflow check      | ☐      |
-| 12  | **Count Number of Substrings**                 | Sliding window or prefix sum           | ☐      |
-| 13  | **Longest Palindromic Substring**              | Expand-around-center (No DP)           | ☐      |
-| 14  | **Sum of Beauty of All Substrings**            | Hash + frequency difference            | ☐      |
-| 15  | **Reverse Every Word in a String**             | Manual two-pointer reversal            | ☐      |
+| #   | Problem                                        | Concept                                    | Status |
+| --- | ---------------------------------------------- | ------------------------------------------ | ------ |
+| 1   | **Check if Two Strings are Anagram**           | Frequency count or sorting                 | ☐      |
+| 2   | **Reverse Words / Palindrome Check**           | Reverse order or compare mirror positions  | ☐      |
+| 3   | **Largest Odd Number in a String**             | Traverse from end for last odd digit       | ☐      |
+| 4   | **Longest Common Prefix**                      | Compare characters of all strings          | ☐      |
+| 5   | **Isomorphic String**                          | Maintain 1-to-1 mapping between characters | ☐      |
+| 6   | **Check if One String is Rotation of Another** | Check if `s2` is substring of `s1 + s1`    | ☐      |
+| 7   | **Remove Outermost Parentheses**               | Stack or counter to track nesting          | ☐      |
+| 8   | **Sort Characters by Frequency**               | Use hashmap + max-heap                     | ☐      |
+| 9   | **Maximum Nesting Depth of Parentheses**       | Track max open count                       | ☐      |
+| 10  | **Roman Number ↔ Integer Conversion**          | Bidirectional parsing with lookup map      | ☐      |
+| 11  | **Implement Atoi (String to Integer)**         | Manual parsing with overflow detection     | ☐      |
+| 12  | **Count Number of Substrings**                 | Sliding window or prefix-sum based         | ☐      |
+| 13  | **Longest Palindromic Substring**              | Expand around center (no DP)               | ☐      |
+| 14  | **Sum of Beauty of All Substrings**            | Hashmap + frequency difference             | ☐      |
+| 15  | **Reverse Every Word in a String**             | Reverse words in-place using two pointers  | ☐      |
 
-🧠 _Pattern:_ Focus on **two-pointer**, **stack**, and **frequency-mapping** logic for clean string manipulation.
+🧠 _Pattern:_ Use **stack**, **hashmaps**, and **two-pointers** to manipulate substrings efficiently — without converting to extra data structures.
 
 ---
 
 ## ⚙️ Concepts to Remember
 
-| Concept                   | Description                                      |
-| ------------------------- | ------------------------------------------------ |
-| **Trie Structure**        | Tree for efficient prefix storage                |
-| **Prefix Matching**       | Used in autocompletion and dictionary problems   |
-| **Rolling Hash**          | Converts strings into comparable integers        |
-| **Z & KMP Algorithms**    | Pattern matching in O(n)                         |
-| **Palindrome Tricks**     | Reverse + prefix/suffix comparison               |
-| **Stack for Parentheses** | Count or validate balanced expressions           |
-| **Character Mapping**     | Used in anagrams, isomorphism, encoding problems |
-| **Parsing Techniques**    | Manual token reading and integer conversion      |
+| Concept                   | Description                                        |
+| ------------------------- | -------------------------------------------------- |
+| **Trie (Prefix Tree)**    | Efficient prefix storage for strings and bits      |
+| **Rolling Hash**          | Convert substrings to comparable integer values    |
+| **Z / KMP Algorithms**    | Precompute longest border for string patterning    |
+| **Palindrome Techniques** | Reverse, expand, or check symmetry dynamically     |
+| **Frequency Mapping**     | Used for anagram and character grouping problems   |
+| **Stack Parsing**         | Evaluate or clean expressions with parentheses     |
+| **Two-pointer Logic**     | Simplifies reversal, substring, and counting logic |
 
 ---
 
 ## 📆 Study Plan (5 Weeks)
 
-| Week       | Focus                          | Key Topics                                             |
-| ---------- | ------------------------------ | ------------------------------------------------------ |
-| **Week 1** | Trees & Tries                  | Introduction to Trie, Prefix, and XOR problems         |
-| **Week 2** | String Basics                  | Bracket, Count & Say, Hashing, Rabin-Karp              |
-| **Week 3** | String Matching                | Z-function, KMP, Prefix/Border patterns                |
-| **Week 4** | String Manipulation            | Anagram, Palindrome, Prefix problems                   |
-| **Week 5** | Parsing & Palindrome Expansion | Atoi, Longest Palindromic Substring, Roman conversions |
+| Week       | Focus                       | Key Topics                                     |
+| ---------- | --------------------------- | ---------------------------------------------- |
+| **Week 1** | Trie Basics                 | Insert/Search/Erase, Longest Prefix, XOR Trie  |
+| **Week 2** | String Fundamentals         | Bracket reversal, Count and Say, Hashing       |
+| **Week 3** | String Matching             | Z-Function, KMP, Palindrome Prefix             |
+| **Week 4** | String Manipulation         | Anagram, Reverse, Prefix, Parentheses          |
+| **Week 5** | Parsing + Advanced Patterns | Atoi, Longest Palindrome, Beauty of Substrings |
 
-🧩 _Tip:_ Practice dry runs — visualize Trie insertion and prefix walking; trace KMP’s LPS array manually for deep understanding.
+🧩 _Tip:_ For KMP/Z problems, dry run string examples manually to visualize prefix overlaps.
 
 ---
 
 ## ✅ Progress Tracker
 
-### Tree / Trie
+### Tries
 
-- [ ] Introduction to Trees
-- [ ] Implement Trie I / II
+- [ ] Implement Trie - II (Prefix Tree)
 - [ ] Longest String with All Prefixes
 - [ ] Number of Distinct Substrings
-- [ ] Bit Pre-Requisites for Trie
-- [ ] Maximum XOR (Array + Element)
+- [ ] Bit PreRequisites for Trie
+- [ ] Maximum XOR With an Element From Array
 - [ ] Word Search II
+- [ ] Maximum XOR of Two Numbers in Array
 
 ### String Fundamentals & Hashing
 
-- [ ] Bracket Reversals
+- [ ] Minimum Number of Bracket Reversals
 - [ ] Count and Say
-- [ ] Hashing Theory
-- [ ] Rabin-Karp
+- [ ] Hashing in Strings (Theory)
+- [ ] Rabin-Karp Algorithm
 
 ### String Matching
 
 - [ ] Z-Function
-- [ ] KMP / LPS Array
+- [ ] KMP Algorithm / LPS(pi) Array
 - [ ] Shortest Palindrome
 - [ ] Longest Happy Prefix
 - [ ] Count Palindromic Subsequences
 
 ### String Manipulation & Parsing
 
-- [ ] Anagram Check
+- [ ] Check if Two Strings are Anagram
 - [ ] Reverse Words / Palindrome Check
-- [ ] Largest Odd Number
+- [ ] Largest Odd Number in a String
 - [ ] Longest Common Prefix
 - [ ] Isomorphic String
-- [ ] Rotation Check
+- [ ] Check if One String is Rotation of Another
 - [ ] Remove Outermost Parentheses
 - [ ] Sort Characters by Frequency
-- [ ] Maximum Nesting Depth
-- [ ] Roman ↔ Integer Conversion
+- [ ] Maximum Nesting Depth of Parentheses
+- [ ] Roman Number ↔ Integer Conversion
 - [ ] Implement Atoi
-- [ ] Count Substrings
+- [ ] Count Number of Substrings
 - [ ] Longest Palindromic Substring
-- [ ] Sum of Beauty of Substrings
-- [ ] Reverse Every Word
+- [ ] Sum of Beauty of All Substrings
+- [ ] Reverse Every Word in a String
 
 ---
 
@@ -191,17 +177,19 @@ Together, these concepts help you solve problems in **search engines, compilers,
 
 By completing this roadmap, you will:
 
-- Master **Trie operations, prefix queries, and XOR optimizations**
-- Understand **rolling hash, KMP, and Z-function algorithms**
-- Gain proficiency in **parsing, palindrome, and string transformations**
-- Be interview-ready for **Google, Meta, Amazon, and Codeforces-style string problems**
+- Master **Tries** and **Prefix/XOR** problems
+- Implement all major **string matching** algorithms (KMP, Z, Rabin-Karp)
+- Be fluent in **string manipulation, parsing, and palindrome** logic
+- Develop **pattern recognition skills** for competitive and interview problems
 
 ---
 
 ## 💬 Author Note
 
-> Trees, Tries, and String Algorithms teach how data flows through **characters, bits, and structures** — forming the foundation of advanced algorithms like **suffix arrays, automata, and pattern matching**.  
-> Think in terms of _patterns, repetition, and hierarchy_ — not just characters.
+> Strings and Tries teach one of the most powerful lessons in DSA —  
+> **how data can represent both words and numbers structurally.**  
+> Once you see patterns in prefixes, repetitions, and mirrors —  
+> every string problem becomes intuitive.
 
 Happy Coding 💻  
-**#DSA #Trie #Strings #Hashing #KMP #RabinKarp #Parsing #InterviewPrep**
+**#DSA #Trie #Strings #KMP #ZFunction #RabinKarp #Parsing #InterviewPrep**
